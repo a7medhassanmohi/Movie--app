@@ -44,7 +44,7 @@ function App() {
 
   }, [currentpage, tvopen, refrespage])
 
-  if (location.pathname == "/") {
+  if (location.pathname == "/" || location.pathname == "/Movie--app") {
     return <Redirect to="/home" />
   }
 
